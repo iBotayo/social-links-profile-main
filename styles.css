@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", Cambria;
+}
+
+:root {
+    --green: hsl(75, 94%, 57%);
+    --white: hsl(0, 0%, 100%);
+    --grey-700: hsl(0, 0%, 20%);
+    --grey-800: hsl(0, 0%, 12%);
+    --grey-900: hsl(0, 0%, 8%)
+}
+
+body {
+    background: var(--grey-900);
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+}
+
+p {
+    font-size: 12px;
+    color: var(--white);
+}
+
+.card {
+    background: var(--grey-800);
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    width: 300px;
+}
+
+img {
+    border-radius: 100%;
+    width: 80px;
+}
+
+h3 {
+    color: var(--white);
+    margin-top: 20px;
+    font-weight: 900;
+}
+
+.location {
+    color: var(--green);
+    margin-top: 5px;
+    font-weight: 600;
+}
+
+.about {
+    margin: 15px;
+    padding: 10px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin: 5px;
+}
+.links a {
+    text-decoration: none;
+    text-align: center;
+    background: var(--grey-700);
+    padding: 13px 70px;
+    border-radius: 5px;
+    color: var(--white);
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.links a:hover {
+    background: var(--green);
+    color: var(--grey-900);
+}
+
+/* Responsive design */
+@media (min-width: 600px) {
+    body {
+        margin-top: 16%;
+    }
+}
+
+@media (min-width: 900px) {
+    body {
+        margin-top: 10%;
+    }
+}
+
+@media (min-width: 1100px) {
+    body {
+        margin-top: 4%;
+    }
+}
