@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub Repository](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub Repository](https://github.com/iBotayo/social-links-profile-main)
+- Live Site URL: [Oluwatobi O. Omitogun](https://oluwatobisocials.netlify.app/)
 
 ## My process
 
